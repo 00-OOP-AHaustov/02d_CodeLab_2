@@ -7,7 +7,7 @@ public class Mitarbeiter {
     private int yearOfEntry;
 
     public Mitarbeiter(){
-        
+
     }
 
     public Mitarbeiter(String familyName, String firstName, String role, int yearOfEntry) {
@@ -31,4 +31,6 @@ public class Mitarbeiter {
                 return "Unknown value.";
         }
     }
+
+    
 }
