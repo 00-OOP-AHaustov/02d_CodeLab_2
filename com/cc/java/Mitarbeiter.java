@@ -6,6 +6,10 @@ public class Mitarbeiter {
     private String role;
     private int yearOfEntry;
 
+    public Mitarbeiter(){
+        
+    }
+
     public Mitarbeiter(String familyName, String firstName, String role, int yearOfEntry) {
         this.familyName = familyName;
         this.firstName = firstName;
